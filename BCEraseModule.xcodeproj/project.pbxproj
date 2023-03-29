@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17140654653A3C97F7B5B4E3 /* Pods_BCEraseModuleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9465069385747A473978986 /* Pods_BCEraseModuleTests.framework */; };
+		26D8BD8E1E7EE09ADC4B6AC0 /* Pods_BCEraseModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F95F52F8EA4245324D1575 /* Pods_BCEraseModule.framework */; };
+		334AF2BF29C07ECE004471D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF2BE29C07ECE004471D9 /* AppDelegate.m */; };
+		334AF2C829C07ECE004471D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334AF2C629C07ECE004471D9 /* Main.storyboard */; };
+		334AF2CA29C07ED0004471D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334AF2C929C07ED0004471D9 /* Assets.xcassets */; };
+		334AF2CD29C07ED0004471D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334AF2CB29C07ED0004471D9 /* LaunchScreen.storyboard */; };
+		334AF2D029C07ED0004471D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF2CF29C07ED0004471D9 /* main.m */; };
+		334AF2DA29C07ED0004471D9 /* BCEraseModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF2D929C07ED0004471D9 /* BCEraseModuleTests.m */; };
+		334AF2E429C07ED0004471D9 /* BCEraseModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF2E329C07ED0004471D9 /* BCEraseModuleUITests.m */; };
+		334AF2E629C07ED0004471D9 /* BCEraseModuleUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF2E529C07ED0004471D9 /* BCEraseModuleUITestsLaunchTests.m */; };
+		334AF2F429C08BC4004471D9 /* EraseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF2F329C08BC4004471D9 /* EraseVC.m */; };
+		334AF30D29C08F0A004471D9 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF2FD29C08F0A004471D9 /* UIImage+image.m */; };
+		334AF30E29C08F0A004471D9 /* DrawingHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF2FE29C08F0A004471D9 /* DrawingHandler.m */; };
+		334AF31029C08F0A004471D9 /* UIImage+maskImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF30029C08F0A004471D9 /* UIImage+maskImage.m */; };
+		334AF31129C08F0A004471D9 /* CIImage+Segmentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF30529C08F0A004471D9 /* CIImage+Segmentation.m */; };
+		334AF31229C08F0A004471D9 /* SmoothFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF30729C08F0A004471D9 /* SmoothFilter.m */; };
+		334AF31329C08F0A004471D9 /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 334AF30929C08F0A004471D9 /* DeepLabV3.mlmodel */; };
+		334AF31429C08F0A004471D9 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF30C29C08F0A004471D9 /* UIImage+FixOrientation.m */; };
+		334AF31B29C09703004471D9 /* GestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF31629C09703004471D9 /* GestureHandler.m */; };
+		334AF31C29C09703004471D9 /* UndoRedoHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF31929C09703004471D9 /* UndoRedoHandler.m */; };
+		334AF32A29C0AC53004471D9 /* EraseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF32929C0AC53004471D9 /* EraseLayer.m */; };
+		334AF32D29C1E5C5004471D9 /* OutputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AF32C29C1E5C5004471D9 /* OutputVC.m */; };
+		74ED164D604CEC0073E3A07A /* Pods_BCEraseModule_BCEraseModuleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCC37CA20F56E5773DD326B /* Pods_BCEraseModule_BCEraseModuleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		334AF2D629C07ED0004471D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 334AF2B229C07ECE004471D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 334AF2B929C07ECE004471D9;
+			remoteInfo = BCEraseModule;
+		};
+		334AF2E029C07ED0004471D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 334AF2B229C07ECE004471D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 334AF2B929C07ECE004471D9;
+			remoteInfo = BCEraseModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20F95F52F8EA4245324D1575 /* Pods_BCEraseModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BCEraseModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		334AF2BA29C07ECE004471D9 /* BCEraseModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCEraseModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		334AF2BD29C07ECE004471D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		334AF2BE29C07ECE004471D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		334AF2C729C07ECE004471D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		334AF2C929C07ED0004471D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		334AF2CC29C07ED0004471D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		334AF2CE29C07ED0004471D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334AF2CF29C07ED0004471D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		334AF2D529C07ED0004471D9 /* BCEraseModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCEraseModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		334AF2D929C07ED0004471D9 /* BCEraseModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCEraseModuleTests.m; sourceTree = "<group>"; };
+		334AF2DF29C07ED0004471D9 /* BCEraseModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCEraseModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		334AF2E329C07ED0004471D9 /* BCEraseModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCEraseModuleUITests.m; sourceTree = "<group>"; };
+		334AF2E529C07ED0004471D9 /* BCEraseModuleUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCEraseModuleUITestsLaunchTests.m; sourceTree = "<group>"; };
+		334AF2F229C08BC4004471D9 /* EraseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EraseVC.h; sourceTree = "<group>"; };
+		334AF2F329C08BC4004471D9 /* EraseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EraseVC.m; sourceTree = "<group>"; };
+		334AF2FA29C08F0A004471D9 /* DrawingHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingHandler.h; sourceTree = "<group>"; };
+		334AF2FC29C08F0A004471D9 /* UIImage+maskImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+maskImage.h"; sourceTree = "<group>"; };
+		334AF2FD29C08F0A004471D9 /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		334AF2FE29C08F0A004471D9 /* DrawingHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingHandler.m; sourceTree = "<group>"; };
+		334AF30029C08F0A004471D9 /* UIImage+maskImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+maskImage.m"; sourceTree = "<group>"; };
+		334AF30129C08F0A004471D9 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		334AF30329C08F0A004471D9 /* BCSegmentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSegmentation.h; sourceTree = "<group>"; };
+		334AF30429C08F0A004471D9 /* CIImage+Segmentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIImage+Segmentation.h"; sourceTree = "<group>"; };
+		334AF30529C08F0A004471D9 /* CIImage+Segmentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIImage+Segmentation.m"; sourceTree = "<group>"; };
+		334AF30729C08F0A004471D9 /* SmoothFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothFilter.m; sourceTree = "<group>"; };
+		334AF30829C08F0A004471D9 /* SmoothFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothFilter.h; sourceTree = "<group>"; };
+		334AF30929C08F0A004471D9 /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3.mlmodel; sourceTree = "<group>"; };
+		334AF30B29C08F0A004471D9 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		334AF30C29C08F0A004471D9 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		334AF31629C09703004471D9 /* GestureHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureHandler.m; sourceTree = "<group>"; };
+		334AF31729C09703004471D9 /* GestureHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureHandler.h; sourceTree = "<group>"; };
+		334AF31929C09703004471D9 /* UndoRedoHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UndoRedoHandler.m; sourceTree = "<group>"; };
+		334AF31A29C09703004471D9 /* UndoRedoHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UndoRedoHandler.h; sourceTree = "<group>"; };
+		334AF32829C0AC53004471D9 /* EraseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EraseLayer.h; sourceTree = "<group>"; };
+		334AF32929C0AC53004471D9 /* EraseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EraseLayer.m; sourceTree = "<group>"; };
+		334AF32B29C1E5C5004471D9 /* OutputVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutputVC.h; sourceTree = "<group>"; };
+		334AF32C29C1E5C5004471D9 /* OutputVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutputVC.m; sourceTree = "<group>"; };
+		A9465069385747A473978986 /* Pods_BCEraseModuleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BCEraseModuleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98781FBFAA5D58BF30D7A64 /* Pods-BCEraseModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCEraseModule.release.xcconfig"; path = "Target Support Files/Pods-BCEraseModule/Pods-BCEraseModule.release.xcconfig"; sourceTree = "<group>"; };
+		AF9B588C816E0FB8A1B316B5 /* Pods-BCEraseModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCEraseModule.debug.xcconfig"; path = "Target Support Files/Pods-BCEraseModule/Pods-BCEraseModule.debug.xcconfig"; sourceTree = "<group>"; };
+		B4D14F5489261B556ACA0E63 /* Pods-BCEraseModule-BCEraseModuleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCEraseModule-BCEraseModuleUITests.release.xcconfig"; path = "Target Support Files/Pods-BCEraseModule-BCEraseModuleUITests/Pods-BCEraseModule-BCEraseModuleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8A0D8F9D1AB3DD75C871E4C /* Pods-BCEraseModule-BCEraseModuleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCEraseModule-BCEraseModuleUITests.debug.xcconfig"; path = "Target Support Files/Pods-BCEraseModule-BCEraseModuleUITests/Pods-BCEraseModule-BCEraseModuleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBCC37CA20F56E5773DD326B /* Pods_BCEraseModule_BCEraseModuleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BCEraseModule_BCEraseModuleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8EE4600AA3F546B65D742C9 /* Pods-BCEraseModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCEraseModuleTests.debug.xcconfig"; path = "Target Support Files/Pods-BCEraseModuleTests/Pods-BCEraseModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E761325547AB7494567D7E76 /* Pods-BCEraseModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCEraseModuleTests.release.xcconfig"; path = "Target Support Files/Pods-BCEraseModuleTests/Pods-BCEraseModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		334AF2B729C07ECE004471D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D8BD8E1E7EE09ADC4B6AC0 /* Pods_BCEraseModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334AF2D229C07ED0004471D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17140654653A3C97F7B5B4E3 /* Pods_BCEraseModuleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334AF2DC29C07ED0004471D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74ED164D604CEC0073E3A07A /* Pods_BCEraseModule_BCEraseModuleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334AF2B129C07ECE004471D9 = {
+			isa = PBXGroup;
+			children = (
+				334AF2BC29C07ECE004471D9 /* BCEraseModule */,
+				334AF2D829C07ED0004471D9 /* BCEraseModuleTests */,
+				334AF2E229C07ED0004471D9 /* BCEraseModuleUITests */,
+				334AF2BB29C07ECE004471D9 /* Products */,
+				94A0FC029F441191482AC860 /* Pods */,
+				D7253D857B5E97F7A4E79406 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		334AF2BB29C07ECE004471D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				334AF2BA29C07ECE004471D9 /* BCEraseModule.app */,
+				334AF2D529C07ED0004471D9 /* BCEraseModuleTests.xctest */,
+				334AF2DF29C07ED0004471D9 /* BCEraseModuleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		334AF2BC29C07ECE004471D9 /* BCEraseModule */ = {
+			isa = PBXGroup;
+			children = (
+				334AF2BD29C07ECE004471D9 /* AppDelegate.h */,
+				334AF2BE29C07ECE004471D9 /* AppDelegate.m */,
+				334AF2F929C08F0A004471D9 /* Masking */,
+				334AF30A29C08F0A004471D9 /* Utility */,
+				334AF2F229C08BC4004471D9 /* EraseVC.h */,
+				334AF2F329C08BC4004471D9 /* EraseVC.m */,
+				334AF2C629C07ECE004471D9 /* Main.storyboard */,
+				334AF2C929C07ED0004471D9 /* Assets.xcassets */,
+				334AF2CB29C07ED0004471D9 /* LaunchScreen.storyboard */,
+				334AF2CE29C07ED0004471D9 /* Info.plist */,
+				334AF2CF29C07ED0004471D9 /* main.m */,
+				334AF32B29C1E5C5004471D9 /* OutputVC.h */,
+				334AF32C29C1E5C5004471D9 /* OutputVC.m */,
+			);
+			path = BCEraseModule;
+			sourceTree = "<group>";
+		};
+		334AF2D829C07ED0004471D9 /* BCEraseModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				334AF2D929C07ED0004471D9 /* BCEraseModuleTests.m */,
+			);
+			path = BCEraseModuleTests;
+			sourceTree = "<group>";
+		};
+		334AF2E229C07ED0004471D9 /* BCEraseModuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				334AF2E329C07ED0004471D9 /* BCEraseModuleUITests.m */,
+				334AF2E529C07ED0004471D9 /* BCEraseModuleUITestsLaunchTests.m */,
+			);
+			path = BCEraseModuleUITests;
+			sourceTree = "<group>";
+		};
+		334AF2F929C08F0A004471D9 /* Masking */ = {
+			isa = PBXGroup;
+			children = (
+				334AF30229C08F0A004471D9 /* BCSegLibrary */,
+				334AF32429C0A363004471D9 /* EraseLayer */,
+				334AF30129C08F0A004471D9 /* UIImage+image.h */,
+				334AF2FD29C08F0A004471D9 /* UIImage+image.m */,
+				334AF2FC29C08F0A004471D9 /* UIImage+maskImage.h */,
+				334AF30029C08F0A004471D9 /* UIImage+maskImage.m */,
+			);
+			path = Masking;
+			sourceTree = "<group>";
+		};
+		334AF30229C08F0A004471D9 /* BCSegLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				334AF30329C08F0A004471D9 /* BCSegmentation.h */,
+				334AF30429C08F0A004471D9 /* CIImage+Segmentation.h */,
+				334AF30529C08F0A004471D9 /* CIImage+Segmentation.m */,
+				334AF30629C08F0A004471D9 /* Filter */,
+				334AF30929C08F0A004471D9 /* DeepLabV3.mlmodel */,
+			);
+			path = BCSegLibrary;
+			sourceTree = "<group>";
+		};
+		334AF30629C08F0A004471D9 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				334AF30729C08F0A004471D9 /* SmoothFilter.m */,
+				334AF30829C08F0A004471D9 /* SmoothFilter.h */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		334AF30A29C08F0A004471D9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				334AF31E29C09716004471D9 /* DrawingHandler */,
+				334AF31529C09703004471D9 /* GestureHandler */,
+				334AF31829C09703004471D9 /* UndoRedoHandler */,
+				334AF30B29C08F0A004471D9 /* UIImage+FixOrientation.h */,
+				334AF30C29C08F0A004471D9 /* UIImage+FixOrientation.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		334AF31529C09703004471D9 /* GestureHandler */ = {
+			isa = PBXGroup;
+			children = (
+				334AF31629C09703004471D9 /* GestureHandler.m */,
+				334AF31729C09703004471D9 /* GestureHandler.h */,
+			);
+			path = GestureHandler;
+			sourceTree = "<group>";
+		};
+		334AF31829C09703004471D9 /* UndoRedoHandler */ = {
+			isa = PBXGroup;
+			children = (
+				334AF31929C09703004471D9 /* UndoRedoHandler.m */,
+				334AF31A29C09703004471D9 /* UndoRedoHandler.h */,
+			);
+			path = UndoRedoHandler;
+			sourceTree = "<group>";
+		};
+		334AF31E29C09716004471D9 /* DrawingHandler */ = {
+			isa = PBXGroup;
+			children = (
+				334AF2FA29C08F0A004471D9 /* DrawingHandler.h */,
+				334AF2FE29C08F0A004471D9 /* DrawingHandler.m */,
+			);
+			path = DrawingHandler;
+			sourceTree = "<group>";
+		};
+		334AF32429C0A363004471D9 /* EraseLayer */ = {
+			isa = PBXGroup;
+			children = (
+				334AF32829C0AC53004471D9 /* EraseLayer.h */,
+				334AF32929C0AC53004471D9 /* EraseLayer.m */,
+			);
+			path = EraseLayer;
+			sourceTree = "<group>";
+		};
+		94A0FC029F441191482AC860 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF9B588C816E0FB8A1B316B5 /* Pods-BCEraseModule.debug.xcconfig */,
+				A98781FBFAA5D58BF30D7A64 /* Pods-BCEraseModule.release.xcconfig */,
+				B8A0D8F9D1AB3DD75C871E4C /* Pods-BCEraseModule-BCEraseModuleUITests.debug.xcconfig */,
+				B4D14F5489261B556ACA0E63 /* Pods-BCEraseModule-BCEraseModuleUITests.release.xcconfig */,
+				D8EE4600AA3F546B65D742C9 /* Pods-BCEraseModuleTests.debug.xcconfig */,
+				E761325547AB7494567D7E76 /* Pods-BCEraseModuleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7253D857B5E97F7A4E79406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20F95F52F8EA4245324D1575 /* Pods_BCEraseModule.framework */,
+				BBCC37CA20F56E5773DD326B /* Pods_BCEraseModule_BCEraseModuleUITests.framework */,
+				A9465069385747A473978986 /* Pods_BCEraseModuleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		334AF2B929C07ECE004471D9 /* BCEraseModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334AF2E929C07ED0004471D9 /* Build configuration list for PBXNativeTarget "BCEraseModule" */;
+			buildPhases = (
+				D834EA6ACBD2FE2FC2A14542 /* [CP] Check Pods Manifest.lock */,
+				334AF2B629C07ECE004471D9 /* Sources */,
+				334AF2B729C07ECE004471D9 /* Frameworks */,
+				334AF2B829C07ECE004471D9 /* Resources */,
+				133561F67878A706ABB5BEF3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BCEraseModule;
+			productName = BCEraseModule;
+			productReference = 334AF2BA29C07ECE004471D9 /* BCEraseModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		334AF2D429C07ED0004471D9 /* BCEraseModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334AF2EC29C07ED0004471D9 /* Build configuration list for PBXNativeTarget "BCEraseModuleTests" */;
+			buildPhases = (
+				D7BC4119D023C83E532F7374 /* [CP] Check Pods Manifest.lock */,
+				334AF2D129C07ED0004471D9 /* Sources */,
+				334AF2D229C07ED0004471D9 /* Frameworks */,
+				334AF2D329C07ED0004471D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				334AF2D729C07ED0004471D9 /* PBXTargetDependency */,
+			);
+			name = BCEraseModuleTests;
+			productName = BCEraseModuleTests;
+			productReference = 334AF2D529C07ED0004471D9 /* BCEraseModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		334AF2DE29C07ED0004471D9 /* BCEraseModuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334AF2EF29C07ED0004471D9 /* Build configuration list for PBXNativeTarget "BCEraseModuleUITests" */;
+			buildPhases = (
+				ACBE38F458EEDC5184D5B14F /* [CP] Check Pods Manifest.lock */,
+				334AF2DB29C07ED0004471D9 /* Sources */,
+				334AF2DC29C07ED0004471D9 /* Frameworks */,
+				334AF2DD29C07ED0004471D9 /* Resources */,
+				F875AFD33342C27B6932404A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				334AF2E129C07ED0004471D9 /* PBXTargetDependency */,
+			);
+			name = BCEraseModuleUITests;
+			productName = BCEraseModuleUITests;
+			productReference = 334AF2DF29C07ED0004471D9 /* BCEraseModuleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		334AF2B229C07ECE004471D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					334AF2B929C07ECE004471D9 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					334AF2D429C07ED0004471D9 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 334AF2B929C07ECE004471D9;
+					};
+					334AF2DE29C07ED0004471D9 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 334AF2B929C07ECE004471D9;
+					};
+				};
+			};
+			buildConfigurationList = 334AF2B529C07ECE004471D9 /* Build configuration list for PBXProject "BCEraseModule" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 334AF2B129C07ECE004471D9;
+			productRefGroup = 334AF2BB29C07ECE004471D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				334AF2B929C07ECE004471D9 /* BCEraseModule */,
+				334AF2D429C07ED0004471D9 /* BCEraseModuleTests */,
+				334AF2DE29C07ED0004471D9 /* BCEraseModuleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		334AF2B829C07ECE004471D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334AF2CD29C07ED0004471D9 /* LaunchScreen.storyboard in Resources */,
+				334AF2CA29C07ED0004471D9 /* Assets.xcassets in Resources */,
+				334AF2C829C07ECE004471D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334AF2D329C07ED0004471D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334AF2DD29C07ED0004471D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		133561F67878A706ABB5BEF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BCEraseModule/Pods-BCEraseModule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BCEraseModule/Pods-BCEraseModule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BCEraseModule/Pods-BCEraseModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACBE38F458EEDC5184D5B14F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BCEraseModule-BCEraseModuleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7BC4119D023C83E532F7374 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BCEraseModuleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D834EA6ACBD2FE2FC2A14542 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BCEraseModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F875AFD33342C27B6932404A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BCEraseModule-BCEraseModuleUITests/Pods-BCEraseModule-BCEraseModuleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BCEraseModule-BCEraseModuleUITests/Pods-BCEraseModule-BCEraseModuleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BCEraseModule-BCEraseModuleUITests/Pods-BCEraseModule-BCEraseModuleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		334AF2B629C07ECE004471D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334AF31C29C09703004471D9 /* UndoRedoHandler.m in Sources */,
+				334AF31029C08F0A004471D9 /* UIImage+maskImage.m in Sources */,
+				334AF2F429C08BC4004471D9 /* EraseVC.m in Sources */,
+				334AF31229C08F0A004471D9 /* SmoothFilter.m in Sources */,
+				334AF30D29C08F0A004471D9 /* UIImage+image.m in Sources */,
+				334AF31329C08F0A004471D9 /* DeepLabV3.mlmodel in Sources */,
+				334AF31B29C09703004471D9 /* GestureHandler.m in Sources */,
+				334AF32A29C0AC53004471D9 /* EraseLayer.m in Sources */,
+				334AF30E29C08F0A004471D9 /* DrawingHandler.m in Sources */,
+				334AF31129C08F0A004471D9 /* CIImage+Segmentation.m in Sources */,
+				334AF32D29C1E5C5004471D9 /* OutputVC.m in Sources */,
+				334AF2BF29C07ECE004471D9 /* AppDelegate.m in Sources */,
+				334AF31429C08F0A004471D9 /* UIImage+FixOrientation.m in Sources */,
+				334AF2D029C07ED0004471D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334AF2D129C07ED0004471D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334AF2DA29C07ED0004471D9 /* BCEraseModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334AF2DB29C07ED0004471D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334AF2E629C07ED0004471D9 /* BCEraseModuleUITestsLaunchTests.m in Sources */,
+				334AF2E429C07ED0004471D9 /* BCEraseModuleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		334AF2D729C07ED0004471D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 334AF2B929C07ECE004471D9 /* BCEraseModule */;
+			targetProxy = 334AF2D629C07ED0004471D9 /* PBXContainerItemProxy */;
+		};
+		334AF2E129C07ED0004471D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 334AF2B929C07ECE004471D9 /* BCEraseModule */;
+			targetProxy = 334AF2E029C07ED0004471D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		334AF2C629C07ECE004471D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334AF2C729C07ECE004471D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		334AF2CB29C07ED0004471D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334AF2CC29C07ED0004471D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		334AF2E729C07ED0004471D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		334AF2E829C07ED0004471D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		334AF2EA29C07ED0004471D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9B588C816E0FB8A1B316B5 /* Pods-BCEraseModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8DK4S4CV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BCEraseModule/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.braincraft.BCEraseModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		334AF2EB29C07ED0004471D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98781FBFAA5D58BF30D7A64 /* Pods-BCEraseModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8DK4S4CV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BCEraseModule/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.braincraft.BCEraseModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		334AF2ED29C07ED0004471D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8EE4600AA3F546B65D742C9 /* Pods-BCEraseModuleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8DK4S4CV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.braincraft.BCEraseModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BCEraseModule.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BCEraseModule";
+			};
+			name = Debug;
+		};
+		334AF2EE29C07ED0004471D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E761325547AB7494567D7E76 /* Pods-BCEraseModuleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8DK4S4CV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.braincraft.BCEraseModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BCEraseModule.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BCEraseModule";
+			};
+			name = Release;
+		};
+		334AF2F029C07ED0004471D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A0D8F9D1AB3DD75C871E4C /* Pods-BCEraseModule-BCEraseModuleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8DK4S4CV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.braincraft.BCEraseModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BCEraseModule;
+			};
+			name = Debug;
+		};
+		334AF2F129C07ED0004471D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D14F5489261B556ACA0E63 /* Pods-BCEraseModule-BCEraseModuleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8DK4S4CV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.braincraft.BCEraseModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BCEraseModule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334AF2B529C07ECE004471D9 /* Build configuration list for PBXProject "BCEraseModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334AF2E729C07ED0004471D9 /* Debug */,
+				334AF2E829C07ED0004471D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334AF2E929C07ED0004471D9 /* Build configuration list for PBXNativeTarget "BCEraseModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334AF2EA29C07ED0004471D9 /* Debug */,
+				334AF2EB29C07ED0004471D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334AF2EC29C07ED0004471D9 /* Build configuration list for PBXNativeTarget "BCEraseModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334AF2ED29C07ED0004471D9 /* Debug */,
+				334AF2EE29C07ED0004471D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334AF2EF29C07ED0004471D9 /* Build configuration list for PBXNativeTarget "BCEraseModuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334AF2F029C07ED0004471D9 /* Debug */,
+				334AF2F129C07ED0004471D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 334AF2B229C07ECE004471D9 /* Project object */;
+}
